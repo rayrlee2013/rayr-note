@@ -9,5 +9,15 @@ export default defineConfig({
     mode: 'site',
     base: path,
     publicPath: path,
-    logo: '/images/logo.jpg'
+    logo: path + 'images/logo.jpg',
+    navs: [
+        {
+            title: '文章列表',
+            path: 'getting-started.md',
+        },
+        {
+            title: '关于我',
+            path: 'help.md',
+        },
+    ],
 });
