@@ -1,21 +1,21 @@
 ---
+title: 黑白猪的编程之路
 hero:
-  title: Site Name
-  desc: dumi site app example
-  actions:
-    - text: Getting Started
-      link: /getting-started
-features:
-  - icon: https://gw.alipayobjects.com/zos/bmw-prod/881dc458-f20b-407b-947a-95104b5ec82b/k79dm8ih_w144_h144.png
-    title: Feature 1
-    desc: Balabala
-  - icon: https://gw.alipayobjects.com/zos/bmw-prod/d60657df-0822-4631-9d7c-e7a869c2f21c/k79dmz3q_w126_h126.png
-    title: Feature 2
-    desc: Balabala
-  - icon: https://gw.alipayobjects.com/zos/bmw-prod/d1ee0c6f-5aed-4a45-a507-339a4bfe076c/k7bjsocq_w144_h144.png
-    title: Feature 3
-    desc: Balabala
-footer: Open-source MIT Licensed | Copyright © 2020<br />Powered by [dumi](https://d.umijs.org)
+  title: 黑白猪的日常摸鱼
+  desc: 基于[`react@17.0.2`](https://github.com/facebook/react/tree/v17.0.2)(尽可能跟随 react 版本的升级, 持续更新). 用大量配图的方式, 致力于将`react原理`表述清楚.
+footer: Open-source MIT Licensed | Copyright © [黑白猪](https://github.com/rayrlee2013)<br />Powered by [dumi](https://d.umijs.org/)
 ---
 
-## Hello dumi!
+### 使用指南
+
+* 本系列以 react 核心包结构和运行机制为主线索进行展开. 包括`react 宏观结构`, `react 工作循环`, `react 启动模式`, `react fiber原理`, `react hook原理`, `react 合成事件`等核心内容.
+* 开源作品需要社区的净化和参与, 如有表述不清晰或表述错误, 欢迎[issue 勘误](https://github.com/7kms/react-illustration-series/issues). 如果对你有帮助, 请不吝 star.
+* 本系列最初写作于 2020 年 6 月(当时稳定版本是 v16.13.1), 随着 react 官方的升级, 本 repo 会将主要版本的文章保存在以版本号命名的分支中.
+* 当下前端技术圈总体比较浮躁, 各技术平台充斥着不少"标题党". 真正对于技术本身, 不能急于求成, 需要静下心来修炼.
+* 本系列不是面经, 但会列举一些面试题来加深对 react 理解.
+* 本系列所有内容皆为原创, 如需转载, 请注明出处.
+
+### 适用读者
+
+* 对`react`,`react-dom`开发 web 应用有实践经验.
+* 期望深入理解`react`内在作用原理.
